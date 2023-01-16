@@ -15,3 +15,11 @@ updateCardsName = () => {
 updateCardsNumber = () => {
   cardNumber.innerHTML = cardNumberInput.value;
 };
+
+updateExpNumber = () => {
+  expDate.innerHTML = cardNumberInput.value;
+};
+
+updateCVCNumber = () => {
+  cvc.innerHTML = cardNumberInput.value;
+};
