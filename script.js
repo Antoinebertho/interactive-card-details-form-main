@@ -6,7 +6,7 @@ let cvc = document.querySelector(".cvc");
 let cardNameInput = document.querySelector("#name");
 let cardNumberInput = document.querySelector("#number");
 
-// relié au input html avec l'attribut "onchange="exemple()""
+// relié aux inputs html avec l'attribut "onchange="exemple()""
 
 updateCardsName = () => {
   cardName.innerHTML = cardNameInput.value;
